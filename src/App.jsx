@@ -1,10 +1,11 @@
 import './App.css'
+import HomePage from '../components/HomePage.jsx'
 
 function App() {
 
   return (
     <>
-      <h1>Volpine Website</h1>
+      <HomePage />
     </>
   )
 }
