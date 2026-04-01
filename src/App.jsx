@@ -5,18 +5,24 @@ import Projects from './components/layout/Projects'
 import Pricing from './components/layout/Pricing'
 import Contact from './components/layout/Contact'
 import Footer from './components/layout/Footer'
+import HomePage from './components/layout/HomePage'
+import './css/styles.css';
+
 
 function App() {
 
   return (
     <>
       <Header />
+      <HomePage />
       <Nav />
-      <About />
-      <Projects />
-      <Pricing />
-      <Contact />
-      <Footer />
+      <body>
+        <About />
+        <Projects />
+        <Pricing />
+        <Contact />
+        <Footer />
+      </body>
     </>
   )
 }
